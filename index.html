@@ -227,26 +227,6 @@
            style="background:radial-gradient(circle,#9B8FB0 0%,transparent 70%);opacity:.04;"></div>
     </div>
 
-    <!-- Floating deco: marmita sketch -->
-    <div class="absolute top-28 right-4 md:right-20 float pointer-events-none select-none" aria-hidden="true">
-      <svg width="130" height="96" viewBox="0 0 130 96" fill="none" opacity=".18">
-        <rect x="8" y="32" width="114" height="52" rx="7" stroke="#5C2D91" stroke-width="1.5"/>
-        <path d="M4 32 C4 27, 10 25, 65 25 C120 25, 126 27, 126 32" stroke="#5C2D91" stroke-width="1.5" fill="none"/>
-        <rect x="18" y="40" width="94" height="36" rx="4" stroke="#5C2D91" stroke-width="1" stroke-dasharray="2 2"/>
-        <text x="28" y="18" font-family="DM Sans" font-size="8" font-weight="700" fill="#3D1A78">EXPRESSA FOOD</text>
-      </svg>
-    </div>
-
-    <!-- Floating deco: stamp -->
-    <div class="absolute bottom-28 left-4 md:left-20 float2 pointer-events-none select-none" aria-hidden="true">
-      <svg width="84" height="84" viewBox="0 0 84 84" fill="none" opacity=".16">
-        <circle cx="42" cy="42" r="38" stroke="#5C2D91" stroke-width="1.5" stroke-dasharray="4 2.5"/>
-        <circle cx="42" cy="42" r="32" stroke="#5C2D91" stroke-width="1"/>
-        <text x="42" y="38" font-family="DM Sans" font-weight="700" font-size="9" fill="#3D1A78" text-anchor="middle">LANÇA</text>
-        <text x="42" y="50" font-family="DM Sans" font-weight="700" font-size="9" fill="#3D1A78" text-anchor="middle">MENTO</text>
-      </svg>
-    </div>
-
     <div class="max-w-7xl mx-auto px-6 md:px-12 w-full">
       <div class="grid md:grid-cols-2 gap-10 items-center">
 
@@ -264,7 +244,7 @@
           </div>
 
           <p class="text-p-dark/55 text-base md:text-lg leading-relaxed max-w-sm reveal d3">
-            Refeições saudáveis, proteicas e deliciosas — prontas para o seu dia a dia. Zero açúcar, sem glúten, sem complicação.
+            Refeições saudáveis, proteicas e deliciosas — prontas para o seu dia a dia. Zero açúcar, Zero lactose e sem glúten, sem complicação.
           </p>
 
           <div class="flex flex-wrap gap-3 mt-8 reveal d4">
@@ -297,17 +277,14 @@
         </div>
 
         <!-- RIGHT: Logo illustration -->
-        <div class="flex justify-center items-center reveal-right d2">
-          <div class="relative">
-            <img src="./public/LOGO EXPRESSA FOOD.png" alt="Expressa Food Logo" class="w-56 h-56 md:w-72 md:h-72 float object-contain" />
-
-            <!-- Floating badges -->
-            <div class="absolute -top-3 -right-5 bg-white border border-p-pale rounded-full px-3 py-1.5 shadow-md shadow-p-pale/60">
-              <span class="text-[11px] font-bold text-p-dark tracking-wide">Zero Lactose ✓</span>
-            </div>
-            <div class="absolute -bottom-3 -left-8 bg-p-dark text-white rounded-full px-3 py-1.5 shadow-md">
-              <span class="text-[11px] font-bold tracking-wide">Alto Proteíco ✓</span>
-            </div>
+        <div class="flex flex-col justify-center items-center gap-4 reveal-right d2">
+          <img src="./public/MOCK_MARMITA.png" alt="Mock Marmita" class="w-48 h-48 object-contain mb-2" />
+          <!-- Badges stacked vertically -->
+          <div class="bg-white border border-p-pale rounded-full px-3 py-1.5 shadow-md shadow-p-pale/60">
+            <span class="text-[11px] font-bold text-p-dark tracking-wide">Zero Lactose ✓</span>
+          </div>
+          <div class="bg-p-dark text-white rounded-full px-3 py-1.5 shadow-md">
+            <span class="text-[11px] font-bold tracking-wide">Alto Proteíco ✓</span>
           </div>
         </div>
 
