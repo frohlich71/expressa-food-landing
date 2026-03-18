@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Expressa Food — Congelados Fit & Prontos</title>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -100,7 +101,7 @@
     .hero-expressa {
       font-family: 'Bebas Neue', sans-serif;
       font-size: clamp(4rem, 14vw, 13rem);
-      line-height: .85; letter-spacing: .02em; color: #3D1A78;
+      line-height: .75; letter-spacing: .02em; color: #3D1A78;
     }
     .hero-food {
       font-family: 'Bebas Neue', sans-serif; font-style: italic;
@@ -255,6 +256,11 @@
                class="border border-p-med text-p-med px-5 md:px-8 py-3.5 font-bold text-xs tracking-widest uppercase hover:bg-p-pale transition-all duration-300">
               @expressafood
             </a>
+            <a href="http://wa.me/5511921398694" target="_blank"
+               class="btn-cut bg-green-600 text-white px-5 md:px-8 py-3.5 font-bold text-xs tracking-widest uppercase hover:bg-green-700 transition-all duration-300 hover:shadow-xl hover:shadow-green-600/25 flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              WhatsApp
+            </a>
           </div>
 
           <!-- Stats row -->
@@ -278,7 +284,7 @@
 
         <!-- RIGHT: Logo illustration -->
         <div class="flex flex-col justify-center items-center gap-4 reveal-right d2">
-          <img src="./public/MOCK_MARMITA.png" alt="Mock Marmita" class="w-48 h-48 object-contain mb-2" />
+          <img src="./public/MOCK_MARMITA.png" alt="Mock Marmita" class="w-[400px] h-[400px] object-contain mb-2" />
           <!-- Badges stacked vertically -->
           <div class="bg-white border border-p-pale rounded-full px-3 py-1.5 shadow-md shadow-p-pale/60">
             <span class="text-[11px] font-bold text-p-dark tracking-wide">Zero Lactose ✓</span>
@@ -454,7 +460,7 @@
         <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
           <div class="card-hover corners rounded-xl overflow-hidden reveal-left"
                style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
-            <img src="./public/STROGONOFF DE FRANGO.png" alt="Strogonoff de Frango" class="w-full h-full object-cover" />
+            <img src="./public/STROGONOFF DE FRANGO.png" alt="Strogonoff de Frango" class="w-full h-full object-contain" />
           </div>
           <div class="reveal-right d1 md:pl-4">
             <p class="eyebrow mb-2">Marmita fit · 01</p>
@@ -497,7 +503,7 @@
           </div>
           <div class="order-1 md:order-2 card-hover corners rounded-xl overflow-hidden reveal-right"
                style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
-            <img src="./public/TILAPIA COM ARROZ.png" alt="Tilápia com Arroz Primavera" class="w-full h-full object-cover" />
+            <img src="./public/TILAPIA COM ARROZ.png" alt="Tilápia com Arroz Primavera" class="w-full h-full object-contain" />
           </div>
         </div>
 
@@ -505,7 +511,7 @@
         <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
           <div class="card-hover corners rounded-xl overflow-hidden reveal-left"
                style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
-            <img src="./public/ESCONDIDINHO.png" alt="Escondidinho de Carne" class="w-full h-full object-cover" />
+            <img src="./public/ESCONDIDINHO.png" alt="Escondidinho de Carne" class="w-full h-full object-contain" />
           </div>
           <div class="reveal-right d1 md:pl-4">
             <p class="eyebrow mb-2">Marmita fit · 03</p>
@@ -548,7 +554,7 @@
           </div>
           <div class="order-1 md:order-2 card-hover corners rounded-xl overflow-hidden reveal-right"
                style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
-            <img src="./public/FETUCCINE COM BROCOLIS.png" alt="Fetuccini com Brócolis" class="w-full h-full object-cover" />
+            <img src="./public/FETUCCINE COM BROCOLIS.png" alt="Fetuccini com Brócolis" class="w-full h-full object-contain" />
           </div>
         </div>
 
@@ -577,7 +583,7 @@
         <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
           <div class="card-hover corners rounded-xl overflow-hidden reveal-left"
                style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
-            <img src="./public/BROWNIE FIT.PNG" alt="Brownie Fit" class="w-full h-full object-cover" />
+            <img src="./public/BROWNIE FIT.PNG" alt="Brownie Fit" class="w-full h-full object-contain" />
           </div>
           <div class="reveal-right d1 md:pl-4">
             <p class="eyebrow mb-2">Doce fit · 01</p>
@@ -591,7 +597,7 @@
               <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Vegano</span>
             </div>
             <div class="flex items-baseline gap-2">
-              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 12,90</span>
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 20,00</span>
               <span class="text-p-light text-sm">/ unidade</span>
             </div>
           </div>
@@ -611,13 +617,13 @@
               <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Proteico</span>
             </div>
             <div class="flex items-baseline gap-2">
-              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 14,90</span>
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 22,00</span>
               <span class="text-p-light text-sm">/ unidade</span>
             </div>
           </div>
           <div class="order-1 md:order-2 card-hover corners rounded-xl overflow-hidden reveal-right"
                style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
-            <img src="./public/BANOFFE.png" alt="Banoffe Fit" class="w-full h-full object-cover" />
+            <img src="./public/BANOFFE.png" alt="Banoffe Fit" class="w-full h-full object-contain" />
           </div>
         </div>
 
@@ -625,7 +631,7 @@
         <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
           <div class="card-hover corners rounded-xl overflow-hidden reveal-left"
                style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
-            <img src="./public/COOKIE FIT.png" alt="Cookie Fit" class="w-full h-full object-cover" />
+            <img src="./public/COOKIE FIT.png" alt="Cookie Fit" class="w-full h-full object-contain" />
           </div>
           <div class="reveal-right d1 md:pl-4">
             <p class="eyebrow mb-2">Doce fit · 03</p>
@@ -639,7 +645,7 @@
               <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Integrais</span>
             </div>
             <div class="flex items-baseline gap-2">
-              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 9,90</span>
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 16,00</span>
               <span class="text-p-light text-sm">/ unidade</span>
             </div>
           </div>
@@ -659,13 +665,13 @@
               <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Alto Proteína</span>
             </div>
             <div class="flex items-baseline gap-2">
-              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 6,90</span>
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 5,00</span>
               <span class="text-p-light text-sm">/ unidade</span>
             </div>
           </div>
           <div class="order-1 md:order-2 card-hover corners rounded-xl overflow-hidden reveal-right"
                style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
-            <img src="./public/BOMBOM PROTEICO.png" alt="Bombom Proteico" class="w-full h-full object-cover" />
+            <img src="./public/BOMBOM PROTEICO.png" alt="Bombom Proteico" class="w-full h-full object-contain" />
           </div>
         </div>
 
@@ -694,7 +700,7 @@
         <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
           <div class="card-hover corners rounded-xl overflow-hidden reveal-left"
                style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
-            <img src="./public/QUICHE DE FRANGO.png" alt="Quiche de Frango" class="w-full h-full object-cover" />
+            <img src="./public/QUICHE DE FRANGO.png" alt="Quiche de Frango" class="w-full h-full object-contain" />
           </div>
           <div class="reveal-right d1 md:pl-4">
             <p class="eyebrow mb-2">Quiche · 01</p>
@@ -708,7 +714,7 @@
               <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Zero Lactose</span>
             </div>
             <div class="flex items-baseline gap-2">
-              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 24,90</span>
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 26,00</span>
               <span class="text-p-light text-sm">/ unidade</span>
             </div>
           </div>
@@ -728,13 +734,13 @@
               <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Alto Proteína</span>
             </div>
             <div class="flex items-baseline gap-2">
-              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 26,90</span>
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 21,99</span>
               <span class="text-p-light text-sm">/ unidade</span>
             </div>
           </div>
           <div class="order-1 md:order-2 card-hover corners rounded-xl overflow-hidden reveal-right"
                style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
-            <img src="./public/QUICHE DE COSTELA.png" alt="Quiche de Costela" class="w-full h-full object-cover" />
+            <img src="./public/QUICHE DE COSTELA.png" alt="Quiche de Costela" class="w-full h-full object-contain" />
           </div>
         </div>
 
@@ -742,7 +748,7 @@
         <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
           <div class="card-hover corners rounded-xl overflow-hidden reveal-left"
                style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
-            <img src="./public/QUICHE DE COGUMELO.png" alt="Quiche de Cogumelo" class="w-full h-full object-cover" />
+            <img src="./public/QUICHE DE COGUMELO.png" alt="Quiche de Cogumelo" class="w-full h-full object-contain" />
           </div>
           <div class="reveal-right d1 md:pl-4">
             <p class="eyebrow mb-2">Quiche · 03</p>
@@ -759,6 +765,220 @@
               <span class="font-display text-p-dark text-5xl tracking-wide">R$ 21,99</span>
               <span class="text-p-light text-sm">/ unidade</span>
             </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════
+       BEBIDAS & SHOTS
+  ════════════════════════════════════════════════════ -->
+  <section id="bebidas" class="py-24 px-6 md:px-12">
+    <div class="max-w-7xl mx-auto">
+
+      <div class="text-center mb-16">
+        <p class="eyebrow mb-3 reveal">Bebidas & Shots</p>
+        <h2 class="font-script text-p-dark text-5xl md:text-6xl reveal d1">Sucos & Shakes</h2>
+        <div class="divider-dot mt-5 max-w-sm mx-auto reveal d2">
+          <span class="text-p-med text-sm">•</span>
+        </div>
+      </div>
+
+      <div class="space-y-20">
+
+        <!-- ── Suco 1 ── -->
+        <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+          <div class="card-hover corners rounded-xl overflow-hidden reveal-left"
+               style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
+            <img src="./public/SUCO ALOHA.png" alt="Suco Aloha" class="w-full h-full object-contain" />
+          </div>
+          <div class="reveal-right d1 md:pl-4">
+            <p class="eyebrow mb-2">Suco detox · 01</p>
+            <h3 class="font-bold text-p-dark text-2xl md:text-3xl mb-1">Aloha</h3>
+            <div class="divider-dot max-w-xs my-4"><span class="text-xs">•</span></div>
+            <p class="text-p-dark/55 text-sm leading-relaxed mb-5">
+              Abacaxi · Maçã · Gengibre. Prensado a frio, antioxidante e refrescante — perfeito para começar o dia com leveza.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">300ml</span>
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Zero Açúcar</span>
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">1g proteína</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 18,00</span>
+              <span class="text-p-light text-sm">/ unidade</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Suco 2 ── -->
+        <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+          <div class="order-2 md:order-1 reveal-left d1 md:pr-4">
+            <p class="eyebrow mb-2">Suco detox · 02</p>
+            <h3 class="font-bold text-p-dark text-2xl md:text-3xl mb-1">Tropical</h3>
+            <div class="divider-dot max-w-xs my-4"><span class="text-xs">•</span></div>
+            <p class="text-p-dark/55 text-sm leading-relaxed mb-5">
+              Melancia · Abacaxi · Maçã · Gengibre. Uma explosão tropical de sabor com zero açúcar e máximo frescor.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">300ml</span>
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Zero Açúcar</span>
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">2g proteína</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 18,00</span>
+              <span class="text-p-light text-sm">/ unidade</span>
+            </div>
+          </div>
+          <div class="order-1 md:order-2 card-hover corners rounded-xl overflow-hidden reveal-right"
+               style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
+            <img src="./public/SUCO TROPICAL.png" alt="Suco Tropical" class="w-full h-full object-contain" />
+          </div>
+        </div>
+
+        <!-- ── Suco 3 ── -->
+        <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+          <div class="card-hover corners rounded-xl overflow-hidden reveal-left"
+               style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
+            <img src="./public/SUCO GREEN STAR.png" alt="Suco Green Star" class="w-full h-full object-contain" />
+          </div>
+          <div class="reveal-right d1 md:pl-4">
+            <p class="eyebrow mb-2">Suco detox · 03</p>
+            <h3 class="font-bold text-p-dark text-2xl md:text-3xl mb-1">Green Star</h3>
+            <div class="divider-dot max-w-xs my-4"><span class="text-xs">•</span></div>
+            <p class="text-p-dark/55 text-sm leading-relaxed mb-5">
+              Couve · Pepino · Abacaxi · Limão. O clássico verde detox, prensado a frio e rico em clorofila.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">300ml</span>
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Zero Açúcar</span>
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">2g proteína</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 18,00</span>
+              <span class="text-p-light text-sm">/ unidade</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Shake 1 ── -->
+        <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+          <div class="order-2 md:order-1 reveal-left d1 md:pr-4">
+            <p class="eyebrow mb-2">Shake proteico · 01</p>
+            <h3 class="font-bold text-p-dark text-2xl md:text-3xl mb-1">Açaí</h3>
+            <div class="divider-dot max-w-xs my-4"><span class="text-xs">•</span></div>
+            <p class="text-p-dark/55 text-sm leading-relaxed mb-5">
+              Açaí orgânico · Proteína vegana de arroz. Energia e proteína vegetal em um shake cremoso e poderoso.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">300ml</span>
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Vegano</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 26,00</span>
+              <span class="text-p-light text-sm">/ unidade</span>
+            </div>
+          </div>
+          <div class="order-1 md:order-2 card-hover corners rounded-xl overflow-hidden reveal-right"
+               style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
+            <img src="./public/SHAKE AÇAI.png" alt="Shake Açaí" class="w-full h-full object-contain" />
+          </div>
+        </div>
+
+        <!-- ── Shake 2 ── -->
+        <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+          <div class="card-hover corners rounded-xl overflow-hidden reveal-left"
+               style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
+            <img src="./public/SHAKE CACAU.png" alt="Shake Cacau" class="w-full h-full object-contain" />
+          </div>
+          <div class="reveal-right d1 md:pl-4">
+            <p class="eyebrow mb-2">Shake proteico · 02</p>
+            <h3 class="font-bold text-p-dark text-2xl md:text-3xl mb-1">Cacau</h3>
+            <div class="divider-dot max-w-xs my-4"><span class="text-xs">•</span></div>
+            <p class="text-p-dark/55 text-sm leading-relaxed mb-5">
+              Amêndoa · Cacau · Banana · Tâmara. Indulgência vegana com sabor intenso de chocolate e proteína natural.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">300ml</span>
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Vegano</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 25,00</span>
+              <span class="text-p-light text-sm">/ unidade</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Shake 3 ── -->
+        <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+          <div class="order-2 md:order-1 reveal-left d1 md:pr-4">
+            <p class="eyebrow mb-2">Shake proteico · 03</p>
+            <h3 class="font-bold text-p-dark text-2xl md:text-3xl mb-1">Matcha</h3>
+            <div class="divider-dot max-w-xs my-4"><span class="text-xs">•</span></div>
+            <p class="text-p-dark/55 text-sm leading-relaxed mb-5">
+              Matcha · Spirulina · Amêndoa · Baunilha. Energia sustentada e antioxidantes em um shake suave e vegano.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">300ml</span>
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">Vegano</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 25,00</span>
+              <span class="text-p-light text-sm">/ unidade</span>
+            </div>
+          </div>
+          <div class="order-1 md:order-2 card-hover corners rounded-xl overflow-hidden reveal-right"
+               style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
+            <img src="./public/SHAKE MATCHA.png" alt="Shake Matcha" class="w-full h-full object-contain" />
+          </div>
+        </div>
+
+        <!-- ── Shot 1 ── -->
+        <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+          <div class="card-hover corners rounded-xl overflow-hidden reveal-left"
+               style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
+            <img src="./public/SHOT CURCUMA.png" alt="Shot Cúrcuma" class="w-full h-full object-contain" />
+          </div>
+          <div class="reveal-right d1 md:pl-4">
+            <p class="eyebrow mb-2">Shot · 01</p>
+            <h3 class="font-bold text-p-dark text-2xl md:text-3xl mb-1">Shot Cúrcuma</h3>
+            <div class="divider-dot max-w-xs my-4"><span class="text-xs">•</span></div>
+            <p class="text-p-dark/55 text-sm leading-relaxed mb-5">
+              Limão · Gengibre · Cúrcuma · TCM. Antioxidante e anti-inflamatório — o ritual diário de quem cuida do corpo.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">50ml</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 7,00</span>
+              <span class="text-p-light text-sm">/ unidade</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Shot 2 ── -->
+        <div class="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
+          <div class="order-2 md:order-1 reveal-left d1 md:pr-4">
+            <p class="eyebrow mb-2">Shot · 02</p>
+            <h3 class="font-bold text-p-dark text-2xl md:text-3xl mb-1">Shot Black</h3>
+            <div class="divider-dot max-w-xs my-4"><span class="text-xs">•</span></div>
+            <p class="text-p-dark/55 text-sm leading-relaxed mb-5">
+              Limão · Gengibre · Carvão ativado. Auxilia na absorção de toxinas — detox poderoso em um único gole.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+              <span class="bg-p-pale text-p-dark text-[11px] font-semibold px-3 py-1 rounded-full">50ml</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span class="font-display text-p-dark text-5xl tracking-wide">R$ 7,00</span>
+              <span class="text-p-light text-sm">/ unidade</span>
+            </div>
+          </div>
+          <div class="order-1 md:order-2 card-hover corners rounded-xl overflow-hidden reveal-right"
+               style="aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;background-color:#f5f5f5;">
+            <img src="./public/SHOT BLACK.png" alt="Shot Black" class="w-full h-full object-contain" />
           </div>
         </div>
 
@@ -822,122 +1042,6 @@
 
 
   <!-- ═══════════════════════════════════════════════════
-       BEBIDAS & SHOTS
-  ════════════════════════════════════════════════════ -->
-  <section id="bebidas" class="py-24 px-6 md:px-12">
-    <div class="max-w-7xl mx-auto">
-
-      <div class="text-center mb-14">
-        <p class="eyebrow mb-3 reveal">Bebidas & Shots</p>
-        <h2 class="font-script text-p-dark text-5xl md:text-6xl reveal d1">Sucos & Shakes</h2>
-        <div class="divider-dot mt-5 max-w-sm mx-auto reveal d2">
-          <span class="text-p-med text-sm">•</span>
-        </div>
-        <p class="text-p-dark/45 text-sm mt-5 max-w-lg mx-auto reveal d3">
-          Prensados a frio, veganos e zero açúcar. Do detox ao proteico, temos a bebida certa para cada momento do seu dia.
-        </p>
-      </div>
-
-      <!-- Sucos row -->
-      <h3 class="font-script text-p-dark text-3xl mb-6 reveal">Sucos Detox</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
-
-        <div class="drink-pill reveal d1 rounded-xl p-4 flex items-center gap-4 bg-white/60 border border-p-pale/60 hover:border-p-pale">
-          <img src="./public/SUCO ALOHA.png" alt="Suco Aloha" class="w-12 h-16 rounded-full flex-shrink-0 object-cover" />
-          <div>
-            <div class="font-bold text-p-dark text-base">Aloha</div>
-            <div class="text-p-light text-xs mt-0.5 leading-relaxed">Abacaxi · Maçã · Gengibre</div>
-            <div class="text-p-med font-semibold text-xs mt-2">300ml · <strong>R$ 18,00</strong></div>
-            <span class="text-[10px] bg-p-pale text-p-dark font-semibold px-2 py-0.5 rounded-full mt-1 inline-block">Zero Açúcar</span>
-          </div>
-        </div>
-
-        <div class="drink-pill reveal d2 rounded-xl p-4 flex items-center gap-4 bg-white/60 border border-p-pale/60 hover:border-p-pale">
-          <img src="./public/SUCO TROPICAL.png" alt="Suco Tropical" class="w-12 h-16 rounded-full flex-shrink-0 object-cover" />
-          <div>
-            <div class="font-bold text-p-dark text-base">Tropical</div>
-            <div class="text-p-light text-xs mt-0.5 leading-relaxed">Melancia · Abacaxi · Maçã · Gengibre</div>
-            <div class="text-p-med font-semibold text-xs mt-2">300ml · <strong>R$ 18,00</strong></div>
-            <span class="text-[10px] bg-p-pale text-p-dark font-semibold px-2 py-0.5 rounded-full mt-1 inline-block">Zero Açúcar</span>
-          </div>
-        </div>
-
-        <div class="drink-pill reveal d3 rounded-xl p-4 flex items-center gap-4 bg-white/60 border border-p-pale/60 hover:border-p-pale">
-          <img src="./public/SUCO GREEN STAR.png" alt="Suco Green Star" class="w-12 h-16 rounded-full flex-shrink-0 object-cover" />
-          <div>
-            <div class="font-bold text-p-dark text-base">Green Star</div>
-            <div class="text-p-light text-xs mt-0.5 leading-relaxed">Couve · Pepino · Abacaxi · Limão</div>
-            <div class="text-p-med font-semibold text-xs mt-2">300ml · <strong>R$ 18,00</strong></div>
-            <span class="text-[10px] bg-p-pale text-p-dark font-semibold px-2 py-0.5 rounded-full mt-1 inline-block">Zero Açúcar</span>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Shakes row -->
-      <h3 class="font-script text-p-dark text-3xl mb-6 reveal">Shakes Proteicos</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
-
-        <div class="drink-pill reveal d1 rounded-xl p-4 flex items-center gap-4 bg-white/60 border border-p-pale/60 hover:border-p-pale">
-          <img src="./public/SHAKE AÇAI.png" alt="Shake Açaí" class="w-12 h-16 rounded-full flex-shrink-0 object-cover" />
-          <div>
-            <div class="font-bold text-p-dark text-base">Açaí</div>
-            <div class="text-p-light text-xs mt-0.5 leading-relaxed">Açaí orgânico · Proteína vegana de arroz</div>
-            <div class="text-p-med font-semibold text-xs mt-2">300ml · <strong>R$ 26,00</strong></div>
-            <span class="text-[10px] bg-p-pale text-p-dark font-semibold px-2 py-0.5 rounded-full mt-1 inline-block">Vegano</span>
-          </div>
-        </div>
-
-        <div class="drink-pill reveal d2 rounded-xl p-4 flex items-center gap-4 bg-white/60 border border-p-pale/60 hover:border-p-pale">
-          <img src="./public/SHAKE CACAU.png" alt="Shake Cacau" class="w-12 h-16 rounded-full flex-shrink-0 object-cover" />
-          <div>
-            <div class="font-bold text-p-dark text-base">Cacau</div>
-            <div class="text-p-light text-xs mt-0.5 leading-relaxed">Amêndoa · Cacau · Banana · Tâmara</div>
-            <div class="text-p-med font-semibold text-xs mt-2">300ml · <strong>R$ 25,00</strong></div>
-            <span class="text-[10px] bg-p-pale text-p-dark font-semibold px-2 py-0.5 rounded-full mt-1 inline-block">Vegano</span>
-          </div>
-        </div>
-
-        <div class="drink-pill reveal d3 rounded-xl p-4 flex items-center gap-4 bg-white/60 border border-p-pale/60 hover:border-p-pale">
-          <img src="./public/SHAKE MATCHA.png" alt="Shake Matcha" class="w-12 h-16 rounded-full flex-shrink-0 object-cover" />
-          <div>
-            <div class="font-bold text-p-dark text-base">Matcha</div>
-            <div class="text-p-light text-xs mt-0.5 leading-relaxed">Matcha · Spirulina · Amêndoa · Baunilha</div>
-            <div class="text-p-med font-semibold text-xs mt-2">300ml · <strong>R$ 25,00</strong></div>
-            <span class="text-[10px] bg-p-pale text-p-dark font-semibold px-2 py-0.5 rounded-full mt-1 inline-block">Vegano</span>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Shots row -->
-      <h3 class="font-script text-p-dark text-3xl mb-6 reveal">Shots</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-
-        <div class="drink-pill reveal d1 rounded-xl p-4 flex items-center gap-4 bg-white/60 border border-p-pale/60 hover:border-p-pale">
-          <img src="./public/SHOT CURCUMA.png" alt="Shot Cúrcuma" class="w-10 h-14 rounded-full flex-shrink-0 object-cover" />
-          <div>
-            <div class="font-bold text-p-dark text-base">Shot Cúrcuma</div>
-            <div class="text-p-light text-xs mt-0.5 leading-relaxed">Limão · Gengibre · Cúrcuma · TCM — antioxidante e anti-inflamatório</div>
-            <div class="text-p-med font-semibold text-xs mt-2">50ml · <strong>R$ 7,00</strong></div>
-          </div>
-        </div>
-
-        <div class="drink-pill reveal d2 rounded-xl p-4 flex items-center gap-4 bg-white/60 border border-p-pale/60 hover:border-p-pale">
-          <img src="./public/SHOT BLACK.png" alt="Shot Black" class="w-10 h-14 rounded-full flex-shrink-0 object-cover" />
-          <div>
-            <div class="font-bold text-p-dark text-base">Shot Black</div>
-            <div class="text-p-light text-xs mt-0.5 leading-relaxed">Limão · Gengibre · Carvão ativado — auxilia na absorção de toxinas</div>
-            <div class="text-p-med font-semibold text-xs mt-2">50ml · <strong>R$ 7,00</strong></div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <!-- ═══════════════════════════════════════════════════
        SOBRE
   ════════════════════════════════════════════════════ -->
   <section id="sobre" class="py-24 px-6 md:px-12" style="background:rgba(232,228,240,.35);">
@@ -991,10 +1095,17 @@
       <p class="text-white/50 text-base mb-10 leading-relaxed reveal d3">
         Novidades, promoções e muito conteúdo sobre alimentação saudável todos os dias.
       </p>
-      <a href="https://instagram.com/expressafood" target="_blank"
-         class="btn-cut inline-block bg-white text-p-dark px-12 py-4 font-bold text-xs tracking-[.25em] uppercase hover:bg-p-pale transition-all duration-300 hover:shadow-2xl reveal d4">
-        @expressafood
-      </a>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center reveal d4">
+        <a href="https://instagram.com/expressafood" target="_blank"
+           class="btn-cut inline-block bg-white text-p-dark px-10 py-4 font-bold text-xs tracking-[.25em] uppercase hover:bg-p-pale transition-all duration-300 hover:shadow-2xl">
+          @expressafood
+        </a>
+        <a href="http://wa.me/5511921398694" target="_blank"
+           class="btn-cut inline-flex items-center justify-center gap-2 bg-green-500 text-white px-10 py-4 font-bold text-xs tracking-[.25em] uppercase hover:bg-green-600 transition-all duration-300 hover:shadow-2xl hover:shadow-green-500/30">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          WhatsApp
+        </a>
+      </div>
     </div>
   </section>
 
@@ -1045,7 +1156,7 @@
       </div>
 
       <div class="divider-dot mt-8 mb-5"><span class="text-xs">•</span></div>
-      <p class="text-center text-p-light text-xs">© 2024 Expressa Food · Congelados | Fit | Prontos</p>
+      <p class="text-center text-p-light text-xs">© 2026 Expressa Food · Congelados | Fit | Prontos</p>
     </div>
   </footer>
 
